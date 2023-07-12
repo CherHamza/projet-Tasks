@@ -1,0 +1,59 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Hamza"
+
+        },
+        {
+            "id": 2,
+            "name": "Yvan"
+        },
+        {
+            "id": 3,
+            "name": "Laura"
+        },
+        {
+            "id": 4,
+            "name": "George"
+        }
+    ],
+
+    "tasks": [
+        {
+            "id": 1,
+            "title" : "Faire le ménage",
+            "catégorie": "URGENT",
+            "done": true,
+            "user_id": 2
+        },
+
+        {
+            "id": 2,
+            "title": "Faire les courses",
+            "catégorie": "IMPORTANT",
+            "done": false,
+            "user_id": 1
+        },
+
+        {
+            "id": 3,
+            "title": "Etendre le linge",
+            "catégorie": "PRIORITAIRE",
+            "done": false,
+            "user_id": 3
+
+        },
+
+        {
+            "id": 4,
+            "title": "Nettoyer les vitres",
+            "catégorie": "IMPORTANT",
+            "done": true,
+            "user_id": 4
+
+        }
+
+    ]
+
+}
