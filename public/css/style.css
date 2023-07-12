@@ -2,3 +2,7 @@ body {
   background: rgb(0, 255, 128);
   color: rgb(20, 2, 2);
 }
+#tasksDone {
+  color: red;
+  border: 2px solid black;
+}
