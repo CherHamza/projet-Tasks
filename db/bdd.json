@@ -23,65 +23,65 @@
         {
             "id": 1,
             "title" : "Faire le ménage",
-            "catégorie": "URGENT",
+            "category": "URGENT",
             "done": true,
-            "user_id": 2
+            "userId": 2
         },
 
         {
             "id": 2,
             "title": "Faire les courses",
-            "catégorie": "IMPORTANT",
+            "category": "IMPORTANT",
             "done": false,
-            "user_id": 1
+            "userId": 1
         },
 
         {
             "id": 3,
             "title": "Etendre le linge",
-            "catégorie": "PRIORITAIRE",
+            "category": "PRIORITAIRE",
             "done": false,
-            "user_id": 3
+            "userId": 3
 
         },
 
         {
             "id": 4,
             "title": "Nettoyer les vitres",
-            "catégorie": "IMPORTANT",
+            "category": "IMPORTANT",
             "done": true,
-            "user_id": 4
+            "userId": 4
 
         },
 
         {
             "id": 5,
             "title" : "Faire le plein",
-            "catégorie": "IMPORTANT",
+            "category": "IMPORTANT",
             "done": false,
-            "user_id": 2
+            "userId": 2
         },
         {
         "id": 6,
         "title": "Faire du shopping",
-        "catégorie": "PRIORITAIRE",
+        "catgory": "PRIORITAIRE",
         "done": true,
-        "user_id": 1
+        "userId": 1
         },
 
         {
             "id": 7,
             "title": "Ranger sa cuisine",
-            "catégorie": "IMPORTANT",
+            "category": "IMPORTANT",
             "done": true,
-            "user_id": 3
+            "userId": 3
         },
         {
             "id": 8,
             "title": "Nettoyer la voiture",
-            "catégorie": "URGENT",
+            "category": "URGENT",
             "done": false,
-            "user_id": 4
+            "userId": 4
         }
 
 

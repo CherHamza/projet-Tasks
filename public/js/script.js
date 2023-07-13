@@ -1,6 +1,6 @@
 if (location.pathname == '/home') {
 
-    let tasks = " ";
+    let tasks = "";
     let selectOptions = null;
     let taskUser = " ";
     let pTask = null;
@@ -174,10 +174,6 @@ fetch('https://localhost:4443/newtask/cat', {
 
 
             optionsCat += "<option value='" + cat.name + "'>" + cat.name+ '</option>';
-        //   const option = document.createElement('option');
-        //   option.value = user.id; 
-        //   option.textContent = user.name; 
-        //   selectOptions.appendChild(option);
         });
         selectOptions.innerHTML = optionsCat;
         
@@ -189,17 +185,20 @@ fetch('https://localhost:4443/newtask/cat', {
         console.log(form.title.value);
         console.log(form.selectCat.value);
         console.log(form.selectUser.value);
+        // console.log(form);
 
         fetch('https://localhost:4443/newtask/', {
             method: "POST",
             headers: {'content-type': 'application/json'},
             body: JSON.stringify({
                 title: form.title.value,
-                cat: form.selectCat.value,
-                users: form.selectUser.value,
+                category: form.selectCat.value,
+                userId: form.selectUser.value,
             })
 
-        }).then(()=> location.href = '/home')
+        })
+        // .then(()=> location.href = '/home')
+        
 
 
     })
