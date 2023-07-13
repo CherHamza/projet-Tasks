@@ -6,3 +6,15 @@ body {
   color: red;
   border: 2px solid black;
 }
+
+.done{
+  color: darkturquoise;
+  border: solid 2px blue;
+  margin: 20px;
+}
+
+.pending{
+  color: brown;
+  border: solid 2px violet;
+  margin : 20px;
+}

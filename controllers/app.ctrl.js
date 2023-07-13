@@ -1,5 +1,6 @@
 const { resolve } = require('path');
-const {users, tasks} = require("../db/bdd.json")
+const {users, tasks, cat} = require("../db/bdd.json");
+const { log } = require('console');
 
 exports.homeCtrl = (req, res) => {
 
@@ -34,6 +35,19 @@ exports.userIdCtrl =(req,res)=>{
 res.json(filterTasks);
 }
 
+exports.newTaskCtrl = (req,res)=>{
+
+  res.sendFile(resolve('public', 'createNewTask.html'))
+}
+exports.catListCtrl =(req, res)=>{
+  res.json(cat)
+}
+exports.newGetTaskCtrl = (req, res)=>{
+  const getNewTask = req.body;
+console.log(getNewTask);
+
+  res.end();
+}
 
 
 

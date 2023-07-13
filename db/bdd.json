@@ -52,8 +52,60 @@
             "done": true,
             "user_id": 4
 
+        },
+
+        {
+            "id": 5,
+            "title" : "Faire le plein",
+            "catégorie": "IMPORTANT",
+            "done": false,
+            "user_id": 2
+        },
+        {
+        "id": 6,
+        "title": "Faire du shopping",
+        "catégorie": "PRIORITAIRE",
+        "done": true,
+        "user_id": 1
+        },
+
+        {
+            "id": 7,
+            "title": "Ranger sa cuisine",
+            "catégorie": "IMPORTANT",
+            "done": true,
+            "user_id": 3
+        },
+        {
+            "id": 8,
+            "title": "Nettoyer la voiture",
+            "catégorie": "URGENT",
+            "done": false,
+            "user_id": 4
         }
 
+
+    ],
+
+    
+        "cat": [
+
+             {
+                "name": "URGENT"
+
+            },
+
+            {
+                "name": "PRIORITAIRE"
+            },
+
+            {
+                "name": "IMPORTANT"
+            }
+
+
+
     ]
+    
 
 }
